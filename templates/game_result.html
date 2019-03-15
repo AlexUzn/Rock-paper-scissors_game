@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Game result</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+  </head>
+  <body>
+    <div class="container">
+        <!-- ribbon banner that displays who won the game -->
+        <h1 class="ribbon-banner"><span>{{ win }}</span></h1>
+      <!-- text that displays which handsign did player and computer played -->
+      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+          <h2 class="title1">You played {{ player_choice }} | I played {{ computer_choice }}</h2>
+      </div>
+      <div>
+        <!-- block with citation signs ("") with randomly generated Einstein's or Dalai Lama's quotes -->
+          <blockquote class="quote-card dark-card">
+              <h1>
+                  {% if win == "I win" %}
+                  Albert Einstein once said: "{{ quote }}"
+                {% elif win == "You win" %}
+                  Dalai Lama once said: "{{ quote }}"
+                {% else %}
+                  Do You want to play again?
+              </h1>
+          </blockquote>
+      </div>
+        <h3><form action="want_to_play_game_yes.html">
+          <button type="submit" class="btn btn-primary btn-lg" >Play again!</button>
+        </h3></form>
+              {% endif %}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+list_of_jokes = ('You know why you never see elephants hiding up in trees? Because they’re really good at it.', 
+'What is red and smells like blue paint? Red paint.', 
+'A dyslexic man walks into a bra.',
+'Where does the General keep his armies? In his sleevies!]',
+'Why aren’t koalas actual bears? They don’t meet the koalafications.',
+'What do you call bears with no ears? B',
+'Why can\'t a blond dial 911? She can\'t find the eleven.',
+'I hate autocorrect. It always makes me say things I didn’t Nintendo.',
+'I asked my grandmother how she’s enjoying her new stairlift. She said, "It’s driving me up the wall.',
+'For years I was against organ transplants. Then I had a change of heart.',
+'Every time I ask someone what the acronym LGBTQ stands for… I can never get a straight answer.')
+
+list_of_Dalai_Lama_quotes = ('Remember that sometimes not getting what you want is a wonderful stroke of luck.',
+'Be kind whenever possible. It is always possible.',
+'My religion is very simple. My religion is kindness.',
+'Happiness is not something ready made. It comes from your own actions.',
+'If you want others to be happy, practice compassion. If you want to be happy, practice compassion.',
+'Our prime purpose in this life is to help others. And if you can\'t help them, at least don\'t hurt them.',
+'This is my simple religion. There is no need for temples; no need for complicated philosophy. Our own brain, our own heart is our temple; the philosophy is kindness.',
+'Love and compassion are necessities, not luxuries. Without them, humanity cannot survive.',
+'The purpose of our lives is to be happy.',
+'We can never obtain peace in the outer world until we make peace with ourselves.')
+
+list_of_Albert_Einstein_quotes = ('Imagination is more important than knowledge.',
+'Life is like riding a bicycle. To keep your balance you must keep moving.',
+'Insanity: doing the same thing over and over again and expecting different results.',
+'If you can\'t explain it simply, you don\'t understand it well enough.',
+'No problem can be solved from the same level of consciousness that created it.',
+'The important thing is not to stop questioning. Curiosity has its own reason for existing.',
+'Two things are infinite: the universe and human stupidity; and I\'m not sure about the universe.',
+'Try not to become a man of success, but rather try to become a man of value.',
+'There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.',
+'Imagination is everything. It is the preview of life\'s coming attractions.')
